@@ -1,0 +1,67 @@
+.bbox {
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    position: absolute;
+    background-size: cover;
+    background-color: #fff;
+    .type {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: 60px;
+      text-align: right;
+      font-size: 1.25rem;
+      color: orange;
+      font-weight: 600;
+    }
+    .logobox {
+      width: 24%;
+      margin: 0px auto;
+      margin-top: 3rem;
+      img {
+        width: 100%;
+      }
+    }
+    .van-cell {
+      background: transparent;
+    }
+    .inputbox {
+      width: 80%;
+      margin: 0 auto;
+      
+      .title {
+        width: 88%;
+        margin: 10px auto;
+        font-size: 12px;
+        text-align: left;
+      }
+      .foot {
+        display: flex;
+        justify-content: space-around;
+        .register {
+          width: 40%;
+          padding: 6px 0px;
+          font-size: 12px;
+          text-align: left;
+          color: orange;
+        }
+        .forget {
+          width: 40%;
+          padding: 6px 0px;
+          font-size: 12px;
+          text-align: right;
+          color: orange;
+        }
+      }
+    }
+    .btn {
+      width: 74%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 60px;
+      border-radius: 4px;
+      padding: 6px;
+      color: #fff;
+      background-color: #ffcc03;
+    }
+  }
